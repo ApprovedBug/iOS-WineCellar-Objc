@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		377BBDEE0555A1E5448EF355 /* Pods_APBWineCellarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C34797574371F480EEB0F4 /* Pods_APBWineCellarTests.framework */; };
+		3ABD5EFC8CEF9B0FD36A92E8 /* Pods_APBWineCellar_APBWineCellarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116991FBD9336A2F965AD26F /* Pods_APBWineCellar_APBWineCellarUITests.framework */; };
 		7198CE2E25645CA10011E9AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7198CE2D25645CA10011E9AE /* AppDelegate.m */; };
 		7198CE3125645CA10011E9AE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7198CE3025645CA10011E9AE /* SceneDelegate.m */; };
 		7198CE3A25645CA10011E9AE /* APBWineCellar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7198CE3825645CA10011E9AE /* APBWineCellar.xcdatamodeld */; };
@@ -16,6 +18,8 @@
 		7198CE4C25645CA20011E9AE /* APBWineCellarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7198CE4B25645CA20011E9AE /* APBWineCellarTests.m */; };
 		7198CE5725645CA30011E9AE /* APBWineCellarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7198CE5625645CA30011E9AE /* APBWineCellarUITests.m */; };
 		71EEA10B2564685B0008688A /* APBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EEA10A2564685B0008688A /* APBLoginViewController.m */; };
+		71EEA15D256480170008688A /* APBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EEA15C256480170008688A /* APBLoginView.m */; };
+		EB6EDFC22B1902B0378C2047 /* Pods_APBWineCellar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0882503811C4A404E471181F /* Pods_APBWineCellar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0882503811C4A404E471181F /* Pods_APBWineCellar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBWineCellar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		116991FBD9336A2F965AD26F /* Pods_APBWineCellar_APBWineCellarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBWineCellar_APBWineCellarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		378A9051BA56528CB9F4B173 /* Pods-APBWineCellar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBWineCellar.release.xcconfig"; path = "Target Support Files/Pods-APBWineCellar/Pods-APBWineCellar.release.xcconfig"; sourceTree = "<group>"; };
+		3B7F6FFB4A972861FCCA0633 /* Pods-APBWineCellar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBWineCellar.debug.xcconfig"; path = "Target Support Files/Pods-APBWineCellar/Pods-APBWineCellar.debug.xcconfig"; sourceTree = "<group>"; };
+		4E182CA4A153665218CA76F1 /* Pods-APBWineCellar-APBWineCellarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBWineCellar-APBWineCellarUITests.debug.xcconfig"; path = "Target Support Files/Pods-APBWineCellar-APBWineCellarUITests/Pods-APBWineCellar-APBWineCellarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7198CE2925645CA10011E9AE /* WineCellarDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineCellarDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7198CE2C25645CA10011E9AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7198CE2D25645CA10011E9AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,12 @@
 		7198CE5825645CA30011E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71EEA1092564685B0008688A /* APBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBLoginViewController.h; sourceTree = "<group>"; };
 		71EEA10A2564685B0008688A /* APBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBLoginViewController.m; sourceTree = "<group>"; };
+		71EEA15B256480170008688A /* APBLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBLoginView.h; sourceTree = "<group>"; };
+		71EEA15C256480170008688A /* APBLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBLoginView.m; sourceTree = "<group>"; };
+		8C314252A9016CC128A3C806 /* Pods-APBWineCellar-APBWineCellarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBWineCellar-APBWineCellarUITests.release.xcconfig"; path = "Target Support Files/Pods-APBWineCellar-APBWineCellarUITests/Pods-APBWineCellar-APBWineCellarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98154181104DC8983F8CF2D7 /* Pods-APBWineCellarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBWineCellarTests.release.xcconfig"; path = "Target Support Files/Pods-APBWineCellarTests/Pods-APBWineCellarTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE8B5CC14B01D0F064E784A1 /* Pods-APBWineCellarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBWineCellarTests.debug.xcconfig"; path = "Target Support Files/Pods-APBWineCellarTests/Pods-APBWineCellarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C34797574371F480EEB0F4 /* Pods_APBWineCellarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBWineCellarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6EDFC22B1902B0378C2047 /* Pods_APBWineCellar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377BBDEE0555A1E5448EF355 /* Pods_APBWineCellarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABD5EFC8CEF9B0FD36A92E8 /* Pods_APBWineCellar_APBWineCellarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +130,8 @@
 				7198CE4A25645CA20011E9AE /* APBWineCellarTests */,
 				7198CE5525645CA30011E9AE /* APBWineCellarUITests */,
 				7198CE2A25645CA10011E9AE /* Products */,
+				FEB0724B64205D663BA374DF /* Pods */,
+				8119B27BE7C054747506F7F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,10 +175,43 @@
 		71EEA108256467EF0008688A /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				71EEA15A25647FF40008688A /* Views */,
 				71EEA1092564685B0008688A /* APBLoginViewController.h */,
 				71EEA10A2564685B0008688A /* APBLoginViewController.m */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		71EEA15A25647FF40008688A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71EEA15B256480170008688A /* APBLoginView.h */,
+				71EEA15C256480170008688A /* APBLoginView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8119B27BE7C054747506F7F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0882503811C4A404E471181F /* Pods_APBWineCellar.framework */,
+				116991FBD9336A2F965AD26F /* Pods_APBWineCellar_APBWineCellarUITests.framework */,
+				F3C34797574371F480EEB0F4 /* Pods_APBWineCellarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEB0724B64205D663BA374DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B7F6FFB4A972861FCCA0633 /* Pods-APBWineCellar.debug.xcconfig */,
+				378A9051BA56528CB9F4B173 /* Pods-APBWineCellar.release.xcconfig */,
+				4E182CA4A153665218CA76F1 /* Pods-APBWineCellar-APBWineCellarUITests.debug.xcconfig */,
+				8C314252A9016CC128A3C806 /* Pods-APBWineCellar-APBWineCellarUITests.release.xcconfig */,
+				CE8B5CC14B01D0F064E784A1 /* Pods-APBWineCellarTests.debug.xcconfig */,
+				98154181104DC8983F8CF2D7 /* Pods-APBWineCellarTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7198CE5B25645CA30011E9AE /* Build configuration list for PBXNativeTarget "APBWineCellar" */;
 			buildPhases = (
+				3F86D03B4C64995BC82E5D29 /* [CP] Check Pods Manifest.lock */,
 				7198CE2525645CA10011E9AE /* Sources */,
 				7198CE2625645CA10011E9AE /* Frameworks */,
 				7198CE2725645CA10011E9AE /* Resources */,
+				2B347EA3D3B784F3887035D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7198CE5E25645CA30011E9AE /* Build configuration list for PBXNativeTarget "APBWineCellarTests" */;
 			buildPhases = (
+				6B616115A4552DEED175EA66 /* [CP] Check Pods Manifest.lock */,
 				7198CE4325645CA20011E9AE /* Sources */,
 				7198CE4425645CA20011E9AE /* Frameworks */,
 				7198CE4525645CA20011E9AE /* Resources */,
@@ -203,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7198CE6125645CA30011E9AE /* Build configuration list for PBXNativeTarget "APBWineCellarUITests" */;
 			buildPhases = (
+				4F6C88FD71F3EA3C959164FB /* [CP] Check Pods Manifest.lock */,
 				7198CE4E25645CA30011E9AE /* Sources */,
 				7198CE4F25645CA30011E9AE /* Frameworks */,
 				7198CE5025645CA30011E9AE /* Resources */,
+				959DFEA5364072DB3C397F0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +343,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B347EA3D3B784F3887035D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBWineCellar/Pods-APBWineCellar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBWineCellar/Pods-APBWineCellar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBWineCellar/Pods-APBWineCellar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F86D03B4C64995BC82E5D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APBWineCellar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F6C88FD71F3EA3C959164FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APBWineCellar-APBWineCellarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B616115A4552DEED175EA66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APBWineCellarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		959DFEA5364072DB3C397F0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBWineCellar-APBWineCellarUITests/Pods-APBWineCellar-APBWineCellarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBWineCellar-APBWineCellarUITests/Pods-APBWineCellar-APBWineCellarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBWineCellar-APBWineCellarUITests/Pods-APBWineCellar-APBWineCellarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7198CE2525645CA10011E9AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -294,6 +455,7 @@
 				7198CE2E25645CA10011E9AE /* AppDelegate.m in Sources */,
 				7198CE3125645CA10011E9AE /* SceneDelegate.m in Sources */,
 				71EEA10B2564685B0008688A /* APBLoginViewController.m in Sources */,
+				71EEA15D256480170008688A /* APBLoginView.m in Sources */,
 				7198CE3A25645CA10011E9AE /* APBWineCellar.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +617,7 @@
 		};
 		7198CE5C25645CA30011E9AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7F6FFB4A972861FCCA0633 /* Pods-APBWineCellar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +636,7 @@
 		};
 		7198CE5D25645CA30011E9AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378A9051BA56528CB9F4B173 /* Pods-APBWineCellar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +655,7 @@
 		};
 		7198CE5F25645CA30011E9AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8B5CC14B01D0F064E784A1 /* Pods-APBWineCellarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +676,7 @@
 		};
 		7198CE6025645CA30011E9AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98154181104DC8983F8CF2D7 /* Pods-APBWineCellarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +697,7 @@
 		};
 		7198CE6225645CA30011E9AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E182CA4A153665218CA76F1 /* Pods-APBWineCellar-APBWineCellarUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4N87CRMB5W;
@@ -549,6 +716,7 @@
 		};
 		7198CE6325645CA30011E9AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C314252A9016CC128A3C806 /* Pods-APBWineCellar-APBWineCellarUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4N87CRMB5W;

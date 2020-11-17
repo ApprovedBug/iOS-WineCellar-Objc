@@ -1,0 +1,16 @@
+PODS:
+  - APBFoundation (0.1.0)
+
+DEPENDENCIES:
+  - APBFoundation (= 0.1.0)
+
+SPEC REPOS:
+  https://github.com/approvedbug/ios-specs.git:
+    - APBFoundation
+
+SPEC CHECKSUMS:
+  APBFoundation: b8e7a9051557c9cbe46b2d526b1b762b26c93385
+
+PODFILE CHECKSUM: 40bbcf6b6c67393bfa51005a416e5c02a9a3e807
+
+COCOAPODS: 1.10.0
